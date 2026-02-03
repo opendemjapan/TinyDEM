@@ -1,0 +1,36 @@
+OFF
+15 19 0 # number of vertices, faces, and edges (unused)
+-0.12 -0.12 0 # x, y, z
+0.12 -0.12 0
+0.12 0.12 0
+-0.12 0.12 0
+-0.05 -0.05 0.15
+0.05 -0.05 0.15
+0.05 0.05 0.15
+-0.05 0.05 0.15
+-0.12 -0.12 0.3
+0.12 -0.12 0.3
+0.12 0.12 0.3
+-0.12 0.12 0.3
+0 0 0.15
+0 -0.05 0.15
+0 0.05 0.15
+4 0 1 2 3 0 # rectangle with vertices 0, 1, 2, 3, radius Rmesh[0]
+3 0 1 5 0 # triangle with vertices 0, 1, 5, radius Rmesh[0]
+3 0 5 4 0
+3 1 2 6 0
+3 1 6 5 0
+3 2 3 7 0
+3 2 7 6 0
+3 3 0 4 0
+3 3 4 7 0
+3 4 5 9 0
+3 4 9 8 0
+3 5 6 10 0
+3 5 10 9 0
+3 6 7 11 0
+3 6 11 10 0
+3 7 4 8 0
+3 7 8 11 0
+1 12 1 # sphere at vertex 12, radius Rmesh[1]
+2 13 14 2 # spherocylinder from vertex 13 to 14, radius Rmesh[2]
